@@ -1,0 +1,8 @@
+version: "0.1"
+services:
+  dev:
+    image: "qiskit/jupyter:0.1"
+    volumes:
+      - ./projects:/projects
+    environment:
+      - USER=gluonhiggs
